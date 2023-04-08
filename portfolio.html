@@ -8,45 +8,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Шапочка -->
-    <header>
+    <header class="portfolio-header">
+    <div class="container nav">
         <!-- Навігація -->
-        <nav>
+        <nav class="nav">
             <a class="portfolio-logo link">Web<span class="studio">Studio</span></a>
   
-          <ul class="list">
-            <li class="header-link"><a class="header-link link" href="./index.html">Studio</a></li>
-            <li class="header-link"><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
-            <li class="header-link"><a class="header-link link" href="">Contacts</a></li>
+          <ul class="site-nav list">
+            <li class="header-link item"><a class="header-link link" href="./index.html">Studio</a></li>
+            <li class="header-link item"><a class="header-link link" href="./portfolio.html">Portfolio</a></li>
+            <li class="header-link item"><a class="header-link link" href="">Contacts</a></li>
           </ul>
         </nav>
   
-      <address class="address"> 
-        <ul class="address list">
-          <li class="header-address"><a class="header-address link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="header-address"><a class="header-address link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address class="address nav"> 
+        <ul class="address list site-address">
+          <li class="header-address item"><a class="header-address link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="header-address item"><a class="header-address link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+    </div>
     </header>
 
     <!-- Унікальний контент сторінки -->
     <main>
         <section>
+        <div class="container">
             <h1 hidden>Portfolio</h1>
             
-            <ul class="list">
-                <li><button type="button" class="portfolio-button">All</button></li>
-                <li><button type="button" class="portfolio-button">Web Site</button></li>
-                <li><button type="button" class="portfolio-button">App</button></li>
-                <li><button type="button" class="portfolio-button">Design</button></li>
-                <li><button type="button" class="portfolio-button">Marketing</button></li>
+            <ul class="list portfolio-list">
+                <li class="b"><button type="button" class="portfolio-button">All</button></li>
+                <li class="b"><button type="button" class="portfolio-button">Web Site</button></li>
+                <li class="b"><button type="button" class="portfolio-button">App</button></li>
+                <li class="b"><button type="button" class="portfolio-button">Design</button></li>
+                <li class="b"><button type="button" class="portfolio-button">Marketing</button></li>
             </ul>
         
-            <ul class="list">
-                <li>
+            <ul class="list portfolio-main">
+                <li class="portfolio-pics-border portfolio-pics">
                     <a href="" class="link">
                         <img src="./images/img11.jpg" alt="img 11" width="360"/>
                         <h2 class="portfolio-title">Banking App Interface Concept</h2>
@@ -54,7 +60,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-pics-border portfolio-pics">
                     <a href="" class="link">
                         <img src="./images/img12.jpg" alt="img 12" width="360"/>
                         <h2 class="portfolio-title">Cashless Payment</h2>
@@ -62,7 +68,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-pics-border portfolio-pics">
                     <a href="" class="link">
                         <img src="./images/img13.jpg" alt="img 13" width="360"/>
                         <h2 class="portfolio-title">Meditation App</h2>
@@ -70,7 +76,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-pics-border portfolio-pics">
                     <a href="" class="link">
                         <img src="./images/img14.jpg" alt="img 14" width="360"/>
                         <h2 class="portfolio-title">Taxi Service</h2>
@@ -78,7 +84,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-pics-border portfolio-pics">
                     <a href="" class="link">
                         <img src="./images/img15.jpg" alt="img 15" width="360"/>
                         <h2 class="portfolio-title">Screen Illustrations</h2>
@@ -86,7 +92,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-pics-border portfolio-pics">
                     <a href="" class="link">
                         <img src="./images/img16.jpg" alt="img 16" width="360"/>
                         <h2 class="portfolio-title">Online Courses</h2>
@@ -94,7 +100,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-pics-border portfolio-pics">
                     <a href="" class="link">
                         <img src="./images/img17.jpg" alt="img 17" width="360"/>
                         <h2 class="portfolio-title">Instagram Stories Concept</h2>
@@ -102,7 +108,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-pics-border portfolio-pics">
                     <a href="" class="link">
                         <img src="./images/img18.jpg" alt="img 18" width="360"/>
                         <h2 class="portfolio-title">Organic Food</h2>
@@ -110,7 +116,7 @@
                     </a>
                 </li>
 
-                <li>
+                <li class="portfolio-pics-border portfolio-pics">
                     <a href="" class="link">
                         <img src="./images/img19.jpg" alt="img 19" width="360"/>
                         <h2 class="portfolio-title">Fresh Coffee</h2>
@@ -118,19 +124,22 @@
                     </a>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
 
 
     <!-- Footer -->
     <footer class="footer">
-        <a class="header-logo link">Web<span class="studio-footer">Studio</span></a>
+    <div class="container">
+        <a class="header-logo link footer-logo">Web<span class="studio-footer">Studio</span></a>
   
-        <p>
+        <p class="footer-text">
           Increase the flow of customers and 
           sales for your business with digital 
           marketing & growth solutions.
         </p>
+    </div>
     </footer>
 </body>
 </html>
